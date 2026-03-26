@@ -28,7 +28,7 @@ cp a11y-audit.env.txt .env
 ./a11y-audit.sh                          # uses the SITES array in the script
 ./a11y-audit.sh -f urls.txt              # one URL per line
 ./a11y-audit.sh -u https://example.com   # single URL
-./a11y-audit.sh --skip-pa11y             # skip Pa11y-CI
+./a11y-audit.sh --skip-pa11y             # skip Pa11y-CI and axe DevTools
 ./a11y-audit.sh --skip-lighthouse        # skip Lighthouse
 ./a11y-audit.sh --skip-wave              # skip WAVE
 ```
