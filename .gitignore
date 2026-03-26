@@ -1,0 +1,4 @@
+node_modules/
+a11y-reports/*/
+a11y-reports/*.tar.gz
+.env
